@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMK Rock Paper Scissors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="DMKGame.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="DMK2-removebg-preview.png" alt="">
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
+    
+    <div class="scoreBoard">
+        <div id="user-badge" class="badge">User</div>
+        <div id="DMK-badge" class="badge">DMK Bot</div>
+        <span id="user-score">0</span>:<span id="DMK-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper covers Rock, You win !!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="R" >
+            <img src="3-removebg-preview.png" alt="">
+        </div>
+        <div class="choice" id="P">
+            <img src="2-removebg-preview.png" alt="">
+        </div>
+        <div class="choice" id="S">
+            <img src="5-removebg-preview.png" alt="">
+        </div>
+    </div>
+
+
+    <p id="actionMessage">Make Your Moves.</p>
+
+    <script src="DMKGame.js"></script>
+</body>
+</html>
